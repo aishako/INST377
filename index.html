@@ -1,129 +1,93 @@
+<!-- Aisha Koroma 
+     Assingment 1 INST377
+     September 27, 2019 -->
+
 <!DOCTYPE html>
+
 <html>
-<body style="background-color:snow;">
 
-<h1 style="text-align:center;"> <b style= "font-size:50px;" > Aisha Koroma's Resume </b> </h1>
+<head>
+    <title>Title</title>
+</head>
 
-<p style="text-align:center;">12809 Brickyard blvd. Beltsville, MD 20705 
-    | <a href="koromaaisha@gmail.com">koromaaisha@gmail.com</a> 
-    | (240)-808-3721  
-</p>
+<body style="background-color:lavenderblush;">
 
-<u1 style = "list-style-type: disc;">
-    <li> Committed and motivated honors scholar at a large state college with an interest in combining STEM and business principles in the realm of Information science and International business</li>
-    <li> Proven strengths in leading and contributing to projects and collaborative work groups in analyzing and applying data</li>
-</u1>
+    <!-- First div tag: stores title, and small paragraph for contact information-->
+    <div id="myHeader">
+            
+        <h1 style="text-align:center;"> <b style="font-size:50px;"> Aisha Koroma's Resume </b> </h1>
+        <address id="contact" style="text-align:center;">12809 Brickyard blvd. Beltsville, MD 20705
+            | <a href="koromaaisha@gmail.com">koromaaisha@gmail.com</a>
+            | <a href="(240)-808-3721">(240)-808-3721</a> </address>
+    </div>
 
-<h1 style = "text-align:center;"> <b style = "color: red;"> EDUCATION </b> </h1>
-<hr>
+    <!-- Second div tag with appropritate identifier, will store all the body contents containing Two generic block-level elements (div) nested within-->
+    <div id="body">
+        <link rel="stylesheet" href="styles.css">
+        <!-- First nested div tag containing description of professional goals -->
+        <div id="goals">
+            <h1 style="text-align:center;"> <b style="color: rgb(77, 28, 77);"> GOALS </b> </h1>
 
-<table style="width:100%">
-    <tr>
-      <th> <h3> School Information </h3> </th>
-      <th> <h3> Current Status </h3></th> 
-    </tr>
-    <tr>
-      <td>University of Maryland, College Park </td>
-      <td>Expected Graduation Date: Fall 2020 </td>
-      
-    </tr>
-    <tr>
-      <td>Bachelor of Science, Information Science </td>
-      <td>Current Cumulative GPA: 3.82</td>
+            <p> 
+                <img src="https://cdn.computercareers.org/wp-content/uploads/Software-Engineer-Career-Goals.jpg" alt="Next" width="100" height="80">
+                    I am a committed and motivated honors scholar at a large state college with an interest
+                    in combining STEM and business principles in the realm of Information science and International
+                    business. I want to become a data scientist that will help discover the information hidden in today's vast amounts of data, 
+                    and help make smarter decisions to deliver even better story-telling. My primary focus will be in applying data mining techniques, 
+                    doing statistical analysis, and building high quality prediction systems.
+                </p>
+          
+        </div>
+
+        <!-- Second nested div tag containing 3 work history entries -->
+        <div id="Work">
+
+            <h1 style="text-align:center;"> <b style="color: rgb(77, 28, 77);"> EMPLOYMENT </b> </h1>
+
+            <style>
+                .employment {
+                    background-color: rgb(181, 144, 185);
+                    color: black;
+                    margin: 20px;
+                    padding: 20px;
+                }
+            </style>
+            <h2 class="employment"> <b> <u>StallionTek,</u> <i> Data Science Intern</i></b> </h2>
+            <h3> <b> June, 2019 to August, 2019 </b> </h3>
+            <dl style="list-style-type: disc;">
+                <dt> Support the product, sales, leadership and marketing teams with insights gained from analyzing company data. </dt>
+                <dd> Reported actionable, statistical, and analytical insights to executives for effective strategic positioning in marketplace</dd>
+                <dd> Shadowed data scientists and assisted in developing algorithms for predictive modeling</dd>
+                <dd> Analyzed and processed sophisticated data sets using SAS, MySQL, and Excel</dd>
+                </dl>
+
+
+
+            <h2 class="employment"> <b> <u>Oracle Inc.,</u> <i> Technical Installer</i></b></h2>
+            <h3> <b> June, 2018 to August, 2018 </b></h3>
+            <dl>
+                <dt> Discover solutions hidden in large data sets and work with stakeholders to improve business outcomes. </dt>
+                <dd> Assisted data scientists with analysis that increased sales performance by 21%.</dd>
+                <dd> Spearheaded in-depth analysis of stockroom operations that led to a 14% decrease in operating costs. </dd>
+                <dd> Worked closely with the company to identify customer needs and demands.</dd>
+            </dl>
+
+
+
+            <h2 class="employment"> <b> <u>Howard Community College,</u> <i> Statistics Tutor</i></b></h2>
+            <h3> <b> August, 2016 to December, 2018 </b></h3>
+            <dl>
+                <dt> Provide academic assistance for college students at learning center. </dt>
+                <dd> Produced study guides and notes for wide range of college students</dd>
+                <dd> Explained mathematics concepts in easy to understand language.</dd>
+                <dd> Helped students build continuously increasing knowledge.</dd>
+            </dl>
    
-    </tr>
-    <tr>
-      <td><i> College of Information Studies </i></td>
-      <td><i> Data Science Specialization </i></td>
-     
-    </tr>
-  </table>
 
-<h1 style = "text-align:center;"> <b style = "color: red;"> EMPLOYMENT </b> </h1>
-<hr>
+        </div>
 
-<h2  <b> University of Maryland, <i> IT Helpdesk Support</i></b> </h2>
-<h3> <b> June, 2018 to August, 2018 </b> </h3>
-    <u1 style = "list-style-type: disc;">
-        <li> Became customer- oriented and gained exceptional customer service skills</li>
-        <li> Enhanced communication skills by actively listening, and clearly providing a solution to inquires</li>
-        <li> Developed critical thinking skills while creating innovative solutions for problems brought up by customers</li>
-    </u1>
-
-<br> </br> 
-
-<h2> <b> Daly Computers, <i> Technical Installer</i></b></h2>
-<h3> <b> June, 2019 to August, 2019 </b></h3>
-    <u1> 
-        <li> Solved technical skills and network related problems</li>
-        <li> Managed installation of new desktops and laptops </li>
-        <li> Enhanced company's project yields through the process of downloading, installing and setting up numerous desktops and laptops</li>
-    </u1>
-
-<br> </br>
-
-<h1 style= "text-align:center;"> <b style = "color: red;"> LEADERSHIP</b></h1>
-<hr> 
-
-<h2> <b> Transfer2Terp, <i> Vice President, Secretary </i></b></h2>
-<h3> <b> January, 2018 to August, 2019 </b></h3>
-    <u1> 
-        <li> Plan events and activities for new transfer students at UMD </li>
-        <li> Observe weekly metings and corespond with President </li>
-        <li> Maintain effective records of all events and members</li>
-    </u1>
-
-<br> </br> 
-
-<h2> <b> Tigers Giving Hope, <i> Public Relations Director</i></b></h2>
-<h3> <b> August, 2016 to December, 2018 </b></h3>
-    <u1> 
-        <li> Produced presentations and flyers about past and upcoming events</li>
-        <li> Organized events with homeless shelters around Baltimore area</li>
-        <li> Managed budget and supplies</li>
-    </u1>
-
-<br> </br> 
-
-<h1 style= "text-align: center;"> <b style = "color: red;"> Skills </b></h1>
-<hr> 
-
-<p> <b> Technical Skills Include: </b></p>
-        <pre>
-            Coding: Statistical computer languages (R, Python, SQL), HTML, Arduino coding 
-            Visualization: Gephi, Tableau, UX Design
-            Languages: English, French, Spanish 
-        </pre>
-
-
-        
-<img src="///Users/ayesha/Desktop/INST377/INST377/Skill_set.jpg" alt="Skill Set" style="float:right;width:200px;height:200px;">
-<br> </br> 
-<br> </br> 
-<br>  </br> 
-
-<h1 style= "text-align:center;"> <b style = "color: red;"> Course Work</b></h1>
-<hr> 
-
-<u1> 
-    <li> Data Science Techniques  </li>
-    <li> Dynamic Web Application</li>
-    <li> Organization, Management and Teamwork  </li>
-    <li> Object Oriented Programming for Information Science </li>
-    <li> Information User Needs and Assessment </li>
-    <li> Database Design and Modeling </li>
-    <li> Introduction to Data Visualization</li>
-    <li> Introduction to Information Science </li>
-    <li> Information Organization</li>
-    <li> Introduction to Programming for Information Science </li>
-    <li> Decision Making for Information Science </li>
-    <li> Managing People and Organization </li>
-    <li> Strategic Management of Human Capital </li>
-    <li> Elementary Calculus and Statistics for Business </li>
-</u1>
-
-
-
+    </div>
 
 </body>
+
 </html>
